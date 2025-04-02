@@ -86,7 +86,7 @@ int main() {
     printf("Quantos pontos turisticos a cidade tem?\n");
     scanf("%d", &Pontos2);
 
-    //INFORMAÇÕES COMPLETAS DAS CADASTRADAS
+    //INFORMAÇÕES COMPLETAS DAS CARTAS CADASTRADAS
 
     //Carta 1
     printf("\nCARTA 1\n");
