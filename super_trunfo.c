@@ -22,11 +22,14 @@ int main() {
     char Estado, codigo[4], Cidade[20];
     int populacao, Pontos;
     float area, PIB;
+    double Densidade, PPC;
 
     //variaveis da carta 2
     char Estado2, codigo2[4], Cidade2[20];
     int populacao2, Pontos2;
     float area2, PIB2;
+    double Densidade2, PPC2;
+
 
     //Cadastro da Carta 1
 
@@ -97,6 +100,8 @@ int main() {
     printf("Área: %.2f km² \n", area);
     printf("PIB: %.2f bilhões de reais \n", PIB);
     printf("Pontos Turísticos: %d \n", Pontos);
+    printf("Densidade Populacional: %.2f hab/km² \n", Densidade = populacao / area);
+    printf("PIB per Capita: %.2f reais \n", PPC = (PIB *= 1000000000) / populacao);
 
     //Carta 2
     printf("\nCARTA 2\n");
@@ -107,7 +112,9 @@ int main() {
     printf("Área: %.2f km² \n", area2);
     printf("PIB: %.2f bilhões de reais \n", PIB2);
     printf("Pontos Turísticos: %d \n", Pontos2);
+    printf("Densidade Populacional: %.2f hab/km² \n", Densidade2 = populacao2 / area2);
+    printf("PIB per Capita: %.2f reais \n", PPC2 = (PIB2 *= 1000000000) / populacao2);
 
     return 0;
 }
-//Desafio Novato Concluido
+//Desafio: Nivel Aventureiro - concluído
