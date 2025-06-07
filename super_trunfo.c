@@ -131,6 +131,11 @@ int main() {
     printf("%.2f\n", SP2 = populacao2 + area2 + PIB2 + Pontos2 + PPC2 - Densidade2);
 
 
+    //comparação de superpoderes
+
+    printf("O Superpoder da carta 1 venceu: %d\n", SP1 > SP2);
+
+
     return 0;
 }
-//Desafio: Nivel Aventureiro - concluído
+//Desafio: Nivel Mestre - concluido
